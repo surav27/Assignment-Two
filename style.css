@@ -106,6 +106,14 @@ body{
     color: #161616;
     font-size: 20px;
     border: 0px;
+    color: black
+    
+}
+.body-btn a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black
+
 }
 #special{
     background-color: 
@@ -330,4 +338,23 @@ hr{
 
     }
     
+  }
+  /* upcoming page styles */
+  .up-body-two-img{}
+  .up-bdy-img{
+    margin-inline: 12px;
+    margin-top: 14px;
+  }
+  #vs{
+    font-size: 15px;
+    font-weight: bold;
+
+  }
+  .up-body-info{
+    text-align: center;
+    font-size: 20px;
+  }
+  .match-info{}
+  .time{
+    font-size: 15px;
   }
