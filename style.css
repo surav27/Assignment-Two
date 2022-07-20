@@ -4,20 +4,22 @@
 /* common styles */
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
     
 }
 
 /* header styles */
 .header-info{
-    width: 100vw;
+    width: 95vw;
 }
 .header-body{
     display: flex;
     background: rgb(22, 22, 22);
     border-radius: 30px;
-    margin-left: 10vw;
-    margin-top: 5vw;
-    margin-right: 100px;
+    margin-left: 6vw;
+    margin-top: 6vw;
+    margin-right: 6vw;
     justify-content: center;
     align-items: center;
     
@@ -36,10 +38,10 @@ body{
 }
 .header-title{
     color: #FFFFFF;
-    font-size: 4vw;
+    font-size: 6vw;
     margin-left: 6vw;
-    margin-top: 4vw;
     margin-bottom: 0px;
+    margin-top: 0px;
     
 }
 .header-para{
@@ -277,8 +279,10 @@ hr{
         flex-direction: column;
     }
     .header-title{
-        font-size: 26px;
+        font-size: 30px;
         text-align: center;
+        margin-top: 34px;
+        margin-inline: 9px;
 
     }
     .header-para{
@@ -289,7 +293,7 @@ hr{
 
     }
     .header-btn{
-        margin-left: 41px;
+        margin-left: 24vw;
         margin-top: 30px;
     }
     .body-two{
@@ -300,7 +304,7 @@ hr{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 248px;
+        
 
     }
     .body-one{
