@@ -9,7 +9,7 @@ body{
 
 /* header styles */
 .header-info{
-    
+    width: 100vw;
 }
 .header-body{
     display: flex;
@@ -24,6 +24,7 @@ body{
     
 }
 .body-info{
+    
 
 }
 .header-text{
@@ -39,6 +40,7 @@ body{
     margin-left: 6vw;
     margin-top: 4vw;
     margin-bottom: 0px;
+    
 }
 .header-para{
     color: #FFFFFF;
@@ -46,6 +48,7 @@ body{
     font-size: 16px;
     margin-top: 1vw;
     margin-bottom: 1vw;
+    
 }
 .header-btn{
     background: #DD0000;
@@ -63,13 +66,14 @@ body{
     font-size: 20px;
 }
 .header-img{
-    width: 50%;
+    
     
 }
 .img-one{
     height: 43vw;
     width: 37vw;
     margin-top: 11vw;
+    margin-right: 10px;
 }
 
 /* main-section */
@@ -182,12 +186,14 @@ body{
 .footer-body{}
 .footer-text{
     text-align: center;
+    
+}
+.foter-title{
     color: #FFFFFF;
     font-size: 40px;
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 35px;
 }
-.foter-title{}
 hr{
     width: 80%;
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -225,7 +231,7 @@ hr{
     font-size: 40px;
     margin-inline: 20px;
 }
-/* responsive styles */
+/* responsive styles for tab */
 
 @media only screen and (min-width: 768px) and (max-width:1024px){
     .body-two{
@@ -254,6 +260,70 @@ hr{
         font-size: 15px;
 
     }
+    .view-all-btn{
+        display: block;
+    }
     
+    
+  }
+  /* responsive styles for mobile */
+
+  @media only screen and (max-width: 760px){
+
+    .header-body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .header-title{
+        font-size: 26px;
+        text-align: center;
+
+    }
+    .header-para{
+        text-align: center;
+        text-align: justify;
+        font-size: 12px;
+        margin-right: 22px;
+
+    }
+    .header-btn{
+        margin-left: 41px;
+        margin-top: 30px;
+    }
+    .body-two{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .body-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 248px;
+
+    }
+    .body-one{
+        
+        margin-left: 16px;
+        display: inline-flex;
+        background-color: white;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 27px;
+        flex-direction: column;
+        
+
+    }
+    .body-btn{
+    
+        padding-inline: 16px;
+        font-size: 15px;
+
+    }
+    .footer-menu{
+        display: grid;
+
+    }
     
   }
