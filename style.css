@@ -8,7 +8,7 @@ body{
 }
 
 /* header styles */
-.header-details{
+.header-info{
     
 }
 .header-body{
@@ -18,11 +18,16 @@ body{
     margin-left: 10vw;
     margin-top: 5vw;
     margin-right: 100px;
+    justify-content: center;
+    align-items: center;
     
     
 }
+.body-info{
+
+}
 .header-text{
-    width: 50%;
+   
     
 }
 .header-details{
@@ -40,7 +45,7 @@ body{
     margin-left: 6vw;
     font-size: 16px;
     margin-top: 1vw;
-    margin-bottom: 2vw;
+    margin-bottom: 1vw;
 }
 .header-btn{
     background: #DD0000;
@@ -75,7 +80,7 @@ body{
     display: flex;
     margin-left: 100px;
     margin-right: 100px;
-    margin-top: 130px;
+    margin-top: 6vw;
     justify-content: flex-start;
 }
 
@@ -96,7 +101,7 @@ body{
     font-size: 20px;
     border: 0px;
 }
-#special:hover{
+#special{
     background-color: 
     #DD0000;
     color: #FFFFFF;
@@ -226,5 +231,29 @@ hr{
     .body-two{
         grid-template-columns: repeat(2, 1fr);
     }
+    .body-section{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .body-one{
+        
+        margin-left: 16px;
+        display: inline-flex;
+        background-color: white;
+        height: 124px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 27px;
+        
+
+    }
+    .body-btn{
+    
+        padding-inline: 26px;
+        font-size: 15px;
+
+    }
+    
     
   }
